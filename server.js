@@ -3,7 +3,7 @@ import http from 'http';
 const PORT = 3000;
 
 const rotas = {
-    '/': "Cursando Node.js",
+    '/': "Cursando Express API",
 };
 
 const server = http.createServer((req, res) => {
